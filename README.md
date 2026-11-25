@@ -1,5 +1,7 @@
 # Looped-transformer Jacobian lens
 
+![Inkling 2 Mini answers "Au" for element 79 and never writes "gold". Inside the loop, gold is the strongest reading under "79" by the second pass and reaches the blank on the third.](assets/reading_the_loop_dark.gif)
+
 Code for fitting and reading a per-pass Jacobian lens on [Inkling 2 Mini](https://thinkingmachines.ai/news/inkling-2-mini/), a looped transformer that runs its 12 middle layers three times for every token.
 
 Blog post: [Reading the Loop: Do looped transformers think in words internally?](https://vedantpalit.github.io/blogs/reading-the-loop.html)
