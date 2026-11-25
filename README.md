@@ -59,3 +59,7 @@ Readings are contrastive when `--baseline` is given: each layer's mean log-proba
   url    = {https://vedantpalit.github.io/blogs/reading-the-loop.html}
 }
 ```
+
+## License
+
+MIT
