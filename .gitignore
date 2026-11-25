@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pt
+fits/
+data/
+uv.lock

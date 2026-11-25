@@ -1,0 +1,17 @@
+[project]
+name = "looped-transformer-j-lens"
+version = "0.1.0"
+description = "Per-pass Jacobian lens for looped transformers (Inkling 2 Mini)"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.0",
+    "numpy>=2",
+    "pyarrow>=17",
+    "safetensors>=0.5",
+    "torch==2.15.0",
+    # 5.24.0 is the first release with inkling2_loop; it dequantizes the NVFP4/MXFP8 experts to bf16 on load
+    "transformers==5.24.0",
+]
+
+[tool.uv]
+package = false   # modules run as `python -m inkling_jlens.<name>` from the repo root; nothing is installed
